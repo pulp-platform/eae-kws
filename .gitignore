@@ -1,0 +1,10 @@
+__pycache__/
+models/
+logs/
+*.csv
+*.sh
+*.txt
+*.pth
+*.png
+*.log
+*.json
