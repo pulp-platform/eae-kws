@@ -1,4 +1,4 @@
-# Boosting keyword spotting through on-device learnable user speech characteristics
+# Environment-Aware Embeddings for Keyword Spotting 
 
 This repository contains the implementation of "Boosting keyword spotting through on-device learnable user speech characteristics". It implements an on-device learning architecture, composed of a (pretrained) backbone and an environment-aware embeding. The embeddings can learn the speech caracteristics of a target user or the characteristics of the background noise present in the environment. The embeddings are fused with the backbone and can be trained separately or together with the classifier and/or the backbone. Please cite the following publication if you use our implementation:
 
@@ -14,6 +14,7 @@ This repository contains the implementation of "Boosting keyword spotting throug
 }
 ```
 
+The repository contains the resources to train and fine-tune neural networks. The resources containing deployment and on-device training will be added soon. 
 
 ## Requirements
 
